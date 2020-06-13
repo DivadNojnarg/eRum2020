@@ -228,6 +228,14 @@
               <p>How to create a template from A to Z?</p>
             </div>
           </li>
+          <li>
+            <div>
+              <h2>03. Go further</h2>
+              <p>How to validate, test template elements? How to improve
+                interactivity?
+              </p>
+            </div>
+          </li>
         </ul>
       </div>
     </section>
@@ -498,16 +506,6 @@
                 C. Develop custom input bindings
               </div>
             </li>
-            <li>
-              <div>
-                D. Validate and test
-              </div>
-            </li>
-            <li>
-              <div>
-                E. Enhance interactivity
-              </div>
-            </li>
           </ul>
         </div>
         <!-- end .content-center -->
@@ -520,7 +518,7 @@
 
     <section>
       <div class="wrap aligncenter">
-        <h2>A. Import dependencies: exercise (10 minutes)</h2>
+        <h2>Chapter 1. Import dependencies: exercise (10 minutes)</h2>
         <h5>Open tabler_dashboard.Rmd and complete step 1</h5>
         <figure>
           <img alt="Thumbnail" src="static/images/tabler-github.png">
@@ -534,7 +532,7 @@
 
     <section>
       <div class="wrap aligncenter">
-        <h2>B. Create template elements: exercise (10 minutes)</h2>
+        <h2>Chapter 2. Create template elements: exercise (10 minutes)</h2>
         <h5>Open tabler_dashboard.Rmd and complete step 2</h5>
       </div> 
       <iframe src="https://alandipert.shinyapps.io/html2r/" height="600px"></iframe>
@@ -546,9 +544,122 @@
 
     <section style="background-color: white;">
       <div class="wrap aligncenter">
-        <h2>C. Binding inputs</h2>
+        <h2>Chapter 3. Create new inputs</h2>
         <iframe src="https://gallery.shinyapps.io/081-widgets-gallery" height="600px" width="100%"></iframe>
       </div>
+      <!-- .end .wrap -->
+    </section>
+
+
+
+    <section>
+      <div class="wrap aligncenter">
+        <h2>A: JavaScript and jQuery</h2>
+      </div>
+      <!-- .end .wrap -->
+    </section>
+
+
+
+    <section class="aligncenter">
+      <div class="wrap">
+        <h2 class="text-data">6,000</h2>
+      </div>
+      <!-- .end .wrap -->
+    </section>
+
+
+
+
+    <section>
+      <div class="wrap aligncenter">
+        <h2>A.1 Define variables</h2>
+        </br>
+        <figure>
+          <img alt="Thumbnail" src="static/images/javascript_variables.svg">
+        </figure>
+      </div>
+      <!-- .end .wrap -->
+    </section>
+
+
+
+    <section>
+      <div class="wrap aligncenter">
+        <h2>A.2 Define objects</h2>
+        </br>
+        <figure>
+          <img alt="Thumbnail" src="static/images/javascript_objects_1.svg">
+        </figure>
+      </div>
+      <!-- .end .wrap -->
+    </section>
+
+
+
+    <section>
+      <div class="wrap aligncenter">
+        <h2>A.3 Objects: get and set</h2>
+        </br>
+        <figure>
+          <img alt="Thumbnail" src="static/images/javascript_objects_2.svg">
+        </figure>
+      </div>
+      <!-- .end .wrap -->
+    </section>
+
+
+
+    <section>
+      <div class="wrap aligncenter">
+        <h2>B. jQuery: "Write less, do more" (1)</h2>
+        <p>>JQuery is a JavaScript library, not another language!</p>
+        <figure>
+          <img alt="Thumbnail" src="static/images/jquery_1.svg">
+        </figure>
+      </div> 
+      <!-- .end .wrap -->
+    </section>
+
+
+
+    <section style="background-color: white;">
+      <div class="wrap aligncenter">
+        <h2>B.1 jQuery selectors (2)</h2>
+      </div>
+      <iframe src="https://www.w3schools.com/jquery/trysel.asp" height="600px"></iframe>
+      <!-- .end .wrap -->
+    </section>
+
+
+
+
+    <section>
+      <div class="wrap aligncenter">
+        <h2>B.2 jQuery: Event listeners</h2>
+        <p>An event listener is a program that triggers when a given event occurs.</p>
+        <div class="content-left">
+          <figure>
+            <img alt="Thumbnail" src="static/images/javascript_events_1.svg">
+          </figure>
+        </div>
+        <div class="content-right">
+          <figure>
+            <img alt="Thumbnail" src="static/images/javascript_events_2.svg">
+          </figure>
+        </div>
+      </div>
+      <!-- .end .wrap -->
+    </section>
+
+
+
+
+    <section>
+      <div class="wrap aligncenter">
+        <h2>B.3 jQuery: exercise (10 minutes)</h2>
+        <h5>Open the intro_to_jquery.Rmd and complete all exercises</h5>
+      </div> 
       <!-- .end .wrap -->
     </section>
 
@@ -557,6 +668,7 @@
     <section style="background-color: white;">
       <div class="wrap aligncenter">
         <h2>C. Input binding structure (1)</h2>
+        <p>An input binding tells how the input should behave.</p>
         <figure>
           <img alt="Thumbnail" src="static/images/shiny_binding.svg">
         </figure>
@@ -582,8 +694,18 @@
     <section>
       <div class="wrap aligncenter">
         <h2>C. Exercise (10 minutes) (3)</h2>
-        <p>Open tabler_dashboard.Rmd complete step 3</p>
+        <h5>Open tabler_dashboard.Rmd complete step 3</h5>
       </div> 
+      <!-- .end .wrap -->
+    </section>
+
+
+
+
+    <section>
+      <div class="wrap aligncenter">
+        <h2><strong>Part 3: Improve</strong></h2>
+      </div>
       <!-- .end .wrap -->
     </section>
 
@@ -594,7 +716,7 @@
       <div class="wrap">
         <!-- [class*="content-"] = container max-width:50% = 600px -->
         <div class="content-center">
-          <h2>D. Validate and test</h2>
+          <h2>A. Validate and test</h2>
           <ul class="flexblock specs">
             <li>
               <div>
@@ -604,11 +726,6 @@
             <li>
               <div>
                 B. Secure for future updates: write unit tests to reduce your mental load (when it's time for a breaking change)
-              </div>
-            </li>
-            <li>
-              <div>
-                C. ... 
               </div>
             </li>
           </ul>
@@ -623,8 +740,8 @@
 
     <section>
       <div class="wrap aligncenter">
-        <h2>D. Exercise (15 minutes)</h2>
-        <p>Open tabler_dashboard.Rmd complete step 4</p>
+        <h2>B. Exercise (15 minutes)</h2>
+        <h5>Open tabler_dashboard.Rmd complete step 4</h5>
       </div> 
       <!-- .end .wrap -->
     </section>
@@ -634,7 +751,7 @@
 
     <section style="background-color: white;">
       <div class="wrap aligncenter">
-        <h2>E. Enhance interactivity: R -> JS communication</h2>
+        <h2>C. Enhance interactivity: R -> JS communication</h2>
         <figure>
           <img alt="Thumbnail" src="static/images/shiny-custom-message.png">
         </figure>
@@ -647,7 +764,7 @@
 
     <section style="background-color: white;">
       <div class="wrap aligncenter">
-        <h2>E. Enhance interactivity: toasts</h2>
+        <h2>C. Enhance interactivity: toasts</h2>
         <figure>
           <img alt="Thumbnail" src="static/images/shiny_toasts.png">
         </figure>
@@ -661,7 +778,7 @@
     <section>
       <div class="wrap">
         <div class="content-center">
-          <h2>E. Toasts JS API</h2>
+          <h2>C. Toasts JS API</h2>
           <ul class="flexblock specs">
             <li>
               <div>
@@ -689,153 +806,11 @@
 
     <section>
       <div class="wrap aligncenter">
-        <h2>E. Enhance interactivity: exercise (10 minutes)</h2>
-        <p>Open tabler_dashboard.Rmd complete step 5</p>
+        <h2>C. Enhance interactivity: exercise (10 minutes)</h2>
+        <h5>Open tabler_dashboard.Rmd complete step 5</h5>
       </div> 
       <!-- .end .wrap -->
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <section>
-      <div class="wrap aligncenter">
-        <h2><strong>Chapter 2</strong>: A Quick introduction to JavaScript</h2>
-        <figure>
-          <img alt="Thumbnail" src="static/images/javascript_intro.png" width="75%">
-        </figure>
-      </div>
-      <!-- .end .wrap -->
-    </section>
-
-
-
-    <section>
-      <div class="wrap aligncenter">
-        <h2>A. Define variables</h2>
-        </br>
-        <figure>
-          <img alt="Thumbnail" src="static/images/javascript_variables.svg">
-        </figure>
-      </div>
-      <!-- .end .wrap -->
-    </section>
-
-
-
-    <section>
-      <div class="wrap aligncenter">
-        <h2>B. Define objects</h2>
-        </br>
-        <figure>
-          <img alt="Thumbnail" src="static/images/javascript_objects_1.svg">
-        </figure>
-      </div>
-      <!-- .end .wrap -->
-    </section>
-
-
-
-    <section>
-      <div class="wrap aligncenter">
-        <h2>C. Objects: get and set</h2>
-        </br>
-        <figure>
-          <img alt="Thumbnail" src="static/images/javascript_objects_2.svg">
-        </figure>
-      </div>
-      <!-- .end .wrap -->
-    </section>
-
-
-
-    <section>
-      <div class="wrap aligncenter">
-        <h2>D. Iterations</h2>
-        </br>
-        <figure>
-          <img alt="Thumbnail" src="static/images/javascript_iterations.svg">
-        </figure>
-      </div>
-      <!-- .end .wrap -->
-    </section>
-
-
-
-    <section>
-      <div class="wrap aligncenter">
-        <h2>E. Functions and scope</h2>
-        </br>
-        <figure>
-          <img alt="Thumbnail" src="static/images/javascript_functions.svg">
-        </figure>
-      </div>
-      <!-- .end .wrap -->
-    </section>
-
-
-
-    <section>
-      <div class="wrap aligncenter">
-        <h2>F. Event listeners</h2>
-        <p>An event listener is a program that triggers when a given event occurs.</p>
-        <div class="content-left">
-          <figure>
-            <img alt="Thumbnail" src="static/images/javascript_events_1.svg">
-          </figure>
-        </div>
-        <div class="content-right">
-          <figure>
-            <img alt="Thumbnail" src="static/images/javascript_events_2.svg">
-          </figure>
-        </div>
-      </div>
-      <!-- .end .wrap -->
-    </section>
-
-
-
-    <section>
-      <div class="wrap aligncenter">
-        <h2>G. jQuery: "Write less, do more" (1)</h2>
-        </br>
-        <figure>
-          <img alt="Thumbnail" src="static/images/jquery_1.svg">
-        </figure>
-      </div> 
-      <!-- .end .wrap -->
-    </section>
-
-
-
-    <section style="background-color: white;">
-      <h2>G. jQuery selectors (2)</h2>
-      <iframe src="https://www.w3schools.com/jquery/trysel.asp" height="600px"></iframe>
-      <!-- .end .wrap -->
-    </section>
-
-
-
-    <section>
-      <div class="wrap aligncenter">
-        <h2>G. jQuery: exercise (15 minutes)</h2>
-        <p>Open the intro_to_jquery.Rmd and complete all exercises</p>
-      </div> 
-      <!-- .end .wrap -->
-    </section>
-
-
-
 
 
 
